@@ -1,0 +1,27 @@
+Keyboard/Mouse Input (Event Handlers -> Data Structure)
+  ↳ Adding bindings -> Bind an event to a function call... (callback)
+    ↳ e.i if event is "w" move player forward.
+    ↳ Underlying Map data structure, maps the binding to callbacks
+      ↳ We must have a way to do a lookup, make sure we retrive the right
+        callback?
+
+Representation of the "World" (Game world)
+  ↳ We will have a way to save and load games
+  ↳ Get to and from disk? (333 esque)
+  ↳ 2D Table that represents that represents each tile/block in world
+  ↳ Can't have infinitely accurate placement, Water tiles, land tiles etc...
+  ↳ 351 Style a blocking?
+    ↳ Could be easier to do a 2d array...? (but what's the fun in that??)
+
+Player Built Structures on TOP of world
+↳ Mines, buildings and plants...? (etc)
+↳ Placeable items
+  ↳ How would this affect the tile?
+↳ Structures == Structs (instead of ints)
+
+Main Menu
+↳ UI Framework! (Ugh...keep simple)
+
+Game State
+↳ Struct w pointer to each states, event handlers and world (Player built stuff)
+↳ Main menu and Player world.
