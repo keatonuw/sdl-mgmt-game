@@ -32,7 +32,7 @@ int main(int argc, char* argv[]) {
     return 4;
   }
 
-  SDL_Surface* lettuce_sur = IMG_Load("Joever.png");
+  SDL_Surface* lettuce_sur = IMG_Load("lettuce.png");
   if (lettuce_sur == NULL) {
     printf("Error loading image: %s", IMG_GetError());
     return 5;
