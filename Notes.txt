@@ -1,2 +1,5 @@
 We got this!!!
 We got this x2!
+
+
+gcc -o build/first src/first.c `sdl2-config --cflags --libs` -l SDL2_image
