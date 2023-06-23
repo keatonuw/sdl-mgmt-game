@@ -54,5 +54,8 @@ dkms.conf
 # VS Code configs
 .vscode
 
+# intellij spam
+.idea
+
 # Build artifacts
 build
