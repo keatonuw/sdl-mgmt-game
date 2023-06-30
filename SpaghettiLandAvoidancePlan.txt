@@ -8,7 +8,7 @@ Keyboard/Mouse Input (Event Handlers -> Data Structure)
 Representation of the "World" (Game world)
   ↳ We will have a way to save and load games
   ↳ Get to and from disk? (333 esque)
-  ↳ 2D Table that represents that represents each tile/block in world
+  ↳ 2D Table that represents each tile/block in world
   ↳ Can't have infinitely accurate placement, Water tiles, land tiles etc...
   ↳ 351 Style a blocking?
     ↳ Could be easier to do a 2d array...? (but what's the fun in that??)
